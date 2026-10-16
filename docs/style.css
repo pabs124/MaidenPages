@@ -1,0 +1,22 @@
+:root{--bg:#F4EEDC;--card:#FAF6E9;--text:#3A3A3C;--dim:#6b665a;--accent:#B02A2E;--rule:#d9d1b8}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 -apple-system,BlinkMacSystemFont,system-ui,"Helvetica Neue",Arial,sans-serif;border-left:2px solid var(--accent);box-shadow:inset 6px 0 0 -4px var(--accent)}
+header,main,footer{max-width:760px;margin:0 auto;padding:16px 16px 16px 24px}
+header{display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center;justify-content:space-between}
+.brand{color:var(--accent);font-weight:700;font-size:1.3rem;text-decoration:none;letter-spacing:.02em}
+nav{display:flex;flex-wrap:wrap;gap:4px 16px}
+nav a{color:var(--dim);text-decoration:none;font-size:.95rem}
+nav a[aria-current],nav a:hover{color:var(--accent)}
+a{color:var(--accent)}
+h1{font-size:2rem;line-height:1.2;margin:.2em 0 .4em}
+h2{font-size:1.2rem;margin:1.6em 0 .3em;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:6px;padding:20px;background-image:repeating-linear-gradient(transparent,transparent 31px,#e6dfc8 32px)}
+.updated,.lead,footer{color:var(--dim)}
+.hero{text-align:center;padding:36px 8px 24px}
+.hero h1{font-size:2.4rem}
+.lead{font-size:1.1rem;max-width:34em;margin:0 auto 24px}
+.badge{display:inline-block;background:var(--accent);color:#F4EEDC;font-weight:700;padding:12px 22px;border-radius:8px;text-decoration:none}
+ul.features{padding-left:1.2em}
+ul.features li{margin:.4em 0}
+footer{text-align:center;font-size:.9rem;padding-bottom:32px}

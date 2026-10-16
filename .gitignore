@@ -1,0 +1,15 @@
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# App Store Connect API keys and signing secrets: never commit (they live in ~/.appstoreconnect/)
+*.p8
+*.p12
+*.pem
+*.mobileprovision
+AuthKey_*
+.appstoreconnect/
+.env
+.env.*
